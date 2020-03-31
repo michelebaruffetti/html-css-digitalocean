@@ -1,3 +1,15 @@
 body    {
     font-family: 'Noto Sans', sans-serif;
 }
+
+.navbar-right   {
+    padding-top: 10px;
+}
+.navbar-right a {
+    color: #0069FF;
+}
+
+.navbar-right .btn-default   {
+    border-color: #0069FF;
+    background-color: transparent;
+}
