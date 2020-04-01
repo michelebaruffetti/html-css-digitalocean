@@ -60,7 +60,14 @@ header  {
 #form-jumbotron     {
     background-color: white;
     border-radius: 10px;
+    color: #8C97AE;
 }
+#form-jumbotron  h2   {
+    color: black;
+    font-weight: bolder;
+}
+
+
 
 #create-account     {
     background-color: #0069ff;
@@ -68,6 +75,48 @@ header  {
     font-weight: 400;
 
 }
+
+.separatore {
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.separatore::before,
+.separatore::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 150px) / 2);
+    height: 1px;
+    background-color: #e5e8ed;
+}
+
+.separatore::before {
+    left: 0;
+}
+
+.separatore::after {
+    right: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    #git    {
+        width: 48%;
+    }
+
+    #google {
+        width: 48%;
+        float: right;
+
+    }
+}
+
+
+
 
 
 /* MEDIA QUERY ZONE */
