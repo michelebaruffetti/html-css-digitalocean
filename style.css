@@ -2,6 +2,10 @@ body    {
     font-family: 'Noto Sans', sans-serif;
 }
 
+.navbar     {
+    border-radius: 0px;
+}
+
 .navbar-default .navbar-toggle .icon-bar{
     background-color: #81A4FF;
 }
@@ -45,14 +49,37 @@ header  {
         background-image: none;
     }
 
-    .navbar-default {
-        background-color: transparent;
-        border-color: transparent;
-    }
+
 
     .navbar-default .navbar-brand   {
         color: white;
     }
 
 
+}
+
+@media screen and (max-width: 1050px)   {
+        #main-menu  {
+            display: none !important;
+        }
+
+        .navbar-toggle  {
+            display: block;
+        }
+
+        .navbar-default {
+            background-color: transparent;
+            border-color: transparent;
+        }
+
+        .navbar-default .navbar-brand   {
+            color: white;
+        }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1050px){
+
+        .navbar-header  {
+            width: 100%;
+        }
 }
