@@ -40,10 +40,15 @@ header  {
     /* height: 600px; */
 }
 
+#jumbotron  {
+    padding: 15px 40px;
+}
+
 #jumbotron h1  {
     color: white;
     font-size: 62px;
     font-weight: bold;
+    margin-bottom: 16px;
 }
 
 #jumbotron p    {
@@ -51,6 +56,21 @@ header  {
     color: #CCDAFF;
 
 }
+
+#form-jumbotron     {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#create-account     {
+    background-color: #0069ff;
+    color: white;
+    font-weight: 400;
+
+}
+
+
+/* MEDIA QUERY ZONE */
 
 @media screen and (max-width: 1199px) {
     #jumbotron h1   {
@@ -64,7 +84,12 @@ header  {
     }
 
 }
+@media screen and (max-width: 879px) {
+    #jumbotron h1   {
+        font-size: 40px;
+    }
 
+}
 
 @media screen and (max-width: 768px)    {
 
