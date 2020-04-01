@@ -37,9 +37,33 @@ header  {
     background-image: url("img/bg-home.jpg");
     background-repeat: no-repeat;
     background-position: top;
-    height: 600px;
+    /* height: 600px; */
 }
 
+#jumbotron h1  {
+    color: white;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+#jumbotron p    {
+    font-size: 24px;
+    color: #CCDAFF;
+
+}
+
+@media screen and (max-width: 1199px) {
+    #jumbotron h1   {
+        font-size: 54px;
+    }
+
+}
+@media screen and (max-width: 999px) {
+    #jumbotron h1   {
+        font-size: 46px;
+    }
+
+}
 
 
 @media screen and (max-width: 768px)    {
