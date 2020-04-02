@@ -2,6 +2,8 @@ body    {
     font-family: 'Noto Sans', sans-serif;
 }
 
+/* SEZIONE MENU */
+
 .navbar     {
     border-radius: 0px;
 }
@@ -37,8 +39,9 @@ header  {
     background-image: url("img/bg-home.jpg");
     background-repeat: no-repeat;
     background-position: top;
-    /* height: 600px; */
 }
+
+/* SEZIONE JUMBOTRON */
 
 #jumbotron  {
     padding: 64px;
@@ -81,6 +84,12 @@ header  {
     color: #031b4e;
     background: #f2f8ff;
     border: 1px solid rgba(0,105,255,.2);
+    width: 48%;
+}
+
+#git {
+    float: right;
+
 }
 
 
@@ -136,11 +145,18 @@ header  {
     text-decoration: underline;
 }
 
+/* SEZIONE GRIGIA CON LOGHI */
+
+#grey   {
+    background-color: #F3F5F9;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 
 
 /* MEDIA QUERY ZONE */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 
     #git    {
         width: 48%;
@@ -151,7 +167,7 @@ header  {
         float: right;
 
     }
-}
+} */
 
 @media screen and (max-width: 1199px) {
     #jumbotron h1   {
