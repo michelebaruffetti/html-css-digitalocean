@@ -153,21 +153,25 @@ header  {
     padding-bottom: 64px;
 }
 
+#grey h2    {
+    color: #929DB4;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+#grey a {
+    color: #0069FF;
+    font-size: 16px;
+}
+#grey a:focus,
+#grey a:hover {
+    text-decoration: none;
+}
 
 /* MEDIA QUERY ZONE */
 
-/* @media screen and (min-width: 768px) {
-
-    #git    {
-        width: 48%;
-    }
-
-    #google {
-        width: 48%;
-        float: right;
-
-    }
-} */
 
 @media screen and (max-width: 1199px) {
     #jumbotron h1   {
