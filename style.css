@@ -158,16 +158,26 @@ header  {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 25px;
 
 }
 
 #grey a {
     color: #0069FF;
     font-size: 16px;
+
 }
 #grey a:focus,
 #grey a:hover {
     text-decoration: none;
+}
+
+#grey-item  {
+
+}
+
+#grey   img {
+    object-fit: contain;
 }
 
 /* MEDIA QUERY ZONE */
