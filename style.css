@@ -8,6 +8,10 @@ body    {
     border-radius: 0px;
 }
 
+#logo-brand   {
+    fill: #0069FF;
+}
+
 .navbar-default .navbar-toggle .icon-bar{
     background-color: #81A4FF;
 }
@@ -269,8 +273,8 @@ header  {
             border-color: transparent;
         }
 
-        .navbar-default .navbar-brand   {
-            color: white;
+        #logo-brand   {
+            fill: white;
         }
 }
 
