@@ -181,8 +181,36 @@ header  {
 }
 
 /* SEZIONE DEPLOY AND SCALE */
-#colonna-destra h3  {
-        margin-top: 0px;
+
+#deploy-scale   {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+#deploy-scale  h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#deploy-scale p    {
+    font-size: 20px;
+    color: rgba(3, 27, 78, 0.7);
+    margin-top: 22px;
+    margin-bottom: 64px;
+}
+
+#lista-laterale li  {
+    padding: 17px 30px;
+    font-size: 18px;
+    border-left: 2px solid #e5e8ed;
+
+}
+#lista-laterale a  {
+    color: rgba(3, 27, 78, 0.7);
+
+}
+
+#lista-laterale {
+    margin-bottom: 25px;
 }
 
 
