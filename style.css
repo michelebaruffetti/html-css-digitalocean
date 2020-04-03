@@ -180,6 +180,12 @@ header  {
     object-fit: contain;
 }
 
+/* SEZIONE DEPLOY AND SCALE */
+#colonna-destra h3  {
+        margin-top: 0px;
+}
+
+
 /* MEDIA QUERY ZONE */
 
 
