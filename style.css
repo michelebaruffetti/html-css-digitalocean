@@ -219,7 +219,7 @@ header  {
 /* SEZIONE DESIGNED-FOR */
 
 #designed-for   {
-    
+
     background-color: #F3F5F9;
 }
 
@@ -254,7 +254,19 @@ header  {
 
 /* SEZIONE BUILT FOR BUSINESS */
 
+/* SEZIONE TABELLA BLU */
 
+#tabella-blu    {
+    background-color: #031B4E;
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bianco     {
+    color: white;
+}
 
 /* MEDIA QUERY ZONE */
 
