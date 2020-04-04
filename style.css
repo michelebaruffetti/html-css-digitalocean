@@ -153,8 +153,7 @@ header  {
 
 #grey   {
     background-color: #F3F5F9;
-    padding-top: 64px;
-    padding-bottom: 64px;
+
 }
 
 #grey h2    {
@@ -186,7 +185,7 @@ header  {
 
 /* SEZIONE DEPLOY AND SCALE */
 
-#deploy-scale   {
+.spaziatore   {
     padding-top: 64px;
     padding-bottom: 64px;
 }
@@ -220,8 +219,7 @@ header  {
 /* SEZIONE DESIGNED-FOR */
 
 #designed-for   {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    
     background-color: #F3F5F9;
 }
 
@@ -253,6 +251,10 @@ header  {
 .pallini i  {
     margin: 0 6px;
 }
+
+/* SEZIONE BUILT FOR BUSINESS */
+
+
 
 /* MEDIA QUERY ZONE */
 
