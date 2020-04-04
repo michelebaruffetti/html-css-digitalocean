@@ -321,6 +321,20 @@ header  {
 footer  {
     background-color: #010E28;
 }
+footer a {
+    color: #757C8A;
+}
+footer li {
+    color: #757C8A;
+    padding: 5px 0;
+}
+
+hr  {
+    color: #757C8A;
+    size: 1px;
+    opacity: 0.4;
+
+}
 /* MEDIA QUERY ZONE */
 
 
