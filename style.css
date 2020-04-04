@@ -249,7 +249,7 @@ header  {
 .pallini    {
     color:#0069FF;
     font-size: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .pallini i  {
@@ -283,6 +283,14 @@ header  {
 .table td:not(:first-child) {
     color: grey;
 }
+
+/* SEZIONE DEVELOPMENT TEAM LOVES DIGITALOCEAN */
+
+.scroll-arrow2   {
+    padding: 25px;
+    margin-top: 150px;
+}
+
 /* MEDIA QUERY ZONE */
 
 
