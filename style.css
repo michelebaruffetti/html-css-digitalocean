@@ -286,9 +286,35 @@ header  {
 
 /* SEZIONE DEVELOPMENT TEAM LOVES DIGITALOCEAN */
 
+#development-teams a {
+    color: #0069FF;
+    text-decoration: underline;
+
+
+}
+#development-teams a:focus,
+#development-teams a:hover {
+    color: #005FE6;
+}
+
 .scroll-arrow2   {
     padding: 25px;
     margin-top: 150px;
+}
+
+/* SEZIONE GET STARTED NOW */
+
+#get-started-now    {
+    background-image: url("img/bg-home.jpg");
+    background-repeat: no-repeat;
+    background-position: -150px bottom;
+}
+
+#get-started-now a {
+    font-weight: bold;
+    color: #005FE6;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 /* MEDIA QUERY ZONE */
